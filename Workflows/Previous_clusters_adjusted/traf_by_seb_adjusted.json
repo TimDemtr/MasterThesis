@@ -1,0 +1,446 @@
+[
+    {
+        "Gene": "SMESG000000294.1",
+        "mean epidermis weighted counts": 77.6,
+        "adjusted mean epidermis weighted counts": 0.013280848879000513,
+        "length": 5.843
+    },
+    {
+        "Gene": "SMESG000000302.1",
+        "mean epidermis weighted counts": 81.9,
+        "adjusted mean epidermis weighted counts": 0.012278860569715144,
+        "length": 6.67
+    },
+    {
+        "Gene": "SMESG000000371.1",
+        "mean epidermis weighted counts": 7.9,
+        "adjusted mean epidermis weighted counts": 0.0045039908779931585,
+        "length": 1.754
+    },
+    {
+        "Gene": "SMESG000000372.1",
+        "mean epidermis weighted counts": 3.6,
+        "adjusted mean epidermis weighted counts": 0.0029654036243822075,
+        "length": 1.214
+    },
+    {
+        "Gene": "SMESG000000393.1",
+        "mean epidermis weighted counts": 22.9,
+        "adjusted mean epidermis weighted counts": 0.004068218155977971,
+        "length": 5.629
+    },
+    {
+        "Gene": "SMESG000000411.1",
+        "mean epidermis weighted counts": 56.0,
+        "adjusted mean epidermis weighted counts": 0.003466848263480468,
+        "length": 16.153
+    },
+    {
+        "Gene": "SMESG000000421.1",
+        "mean epidermis weighted counts": 25.8,
+        "adjusted mean epidermis weighted counts": 0.003570440077497924,
+        "length": 7.226
+    },
+    {
+        "Gene": "SMESG000000493.1",
+        "mean epidermis weighted counts": 13.2,
+        "adjusted mean epidermis weighted counts": 0.0062588904694167845,
+        "length": 2.109
+    },
+    {
+        "Gene": "SMESG000000502.1",
+        "mean epidermis weighted counts": 3.3,
+        "adjusted mean epidermis weighted counts": 0.0017628205128205126,
+        "length": 1.872
+    },
+    {
+        "Gene": "SMESG000000514.1",
+        "mean epidermis weighted counts": 8.4,
+        "adjusted mean epidermis weighted counts": 0.005084745762711865,
+        "length": 1.652
+    },
+    {
+        "Gene": "SMESG000000527.1",
+        "mean epidermis weighted counts": 8.7,
+        "adjusted mean epidermis weighted counts": 0.0026260187141563533,
+        "length": 3.313
+    },
+    {
+        "Gene": "SMESG000000559.1",
+        "mean epidermis weighted counts": 94.0,
+        "adjusted mean epidermis weighted counts": 0.010990295802642347,
+        "length": 8.553
+    },
+    {
+        "Gene": "SMESG000000563.1",
+        "mean epidermis weighted counts": 170.5,
+        "adjusted mean epidermis weighted counts": 0.016216473273730263,
+        "length": 10.514
+    },
+    {
+        "Gene": "SMESG000000571.1",
+        "mean epidermis weighted counts": 67.5,
+        "adjusted mean epidermis weighted counts": 0.006173404060728005,
+        "length": 10.934
+    },
+    {
+        "Gene": "SMESG000011003.1",
+        "mean epidermis weighted counts": 6.9,
+        "adjusted mean epidermis weighted counts": 0.0006275009094216079,
+        "length": 10.996
+    },
+    {
+        "Gene": "SMESG000014712.1",
+        "mean epidermis weighted counts": 3.9,
+        "adjusted mean epidermis weighted counts": 0.0022847100175746923,
+        "length": 1.707
+    },
+    {
+        "Gene": "SMESG000014828.1",
+        "mean epidermis weighted counts": 5.3,
+        "adjusted mean epidermis weighted counts": 0.0012391863455693242,
+        "length": 4.277
+    },
+    {
+        "Gene": "SMESG000015001.1",
+        "mean epidermis weighted counts": 3.8,
+        "adjusted mean epidermis weighted counts": 0.0019905709795704557,
+        "length": 1.909
+    },
+    {
+        "Gene": "SMESG000015860.1",
+        "mean epidermis weighted counts": 15.7,
+        "adjusted mean epidermis weighted counts": 0.003136863136863137,
+        "length": 5.005
+    },
+    {
+        "Gene": "SMESG000015894.1",
+        "mean epidermis weighted counts": 72.3,
+        "adjusted mean epidermis weighted counts": 0.004738497837200157,
+        "length": 15.258
+    },
+    {
+        "Gene": "SMESG000016032.1",
+        "mean epidermis weighted counts": 62.2,
+        "adjusted mean epidermis weighted counts": 0.008142427019243358,
+        "length": 7.639
+    },
+    {
+        "Gene": "SMESG000017419.1",
+        "mean epidermis weighted counts": 10.5,
+        "adjusted mean epidermis weighted counts": 0.002182498441072542,
+        "length": 4.811
+    },
+    {
+        "Gene": "SMESG000020851.1",
+        "mean epidermis weighted counts": 316.7,
+        "adjusted mean epidermis weighted counts": 0.01733253064798599,
+        "length": 18.272
+    },
+    {
+        "Gene": "SMESG000022612.1",
+        "mean epidermis weighted counts": 26.0,
+        "adjusted mean epidermis weighted counts": 0.0026573998364677024,
+        "length": 9.784
+    },
+    {
+        "Gene": "SMESG000022619.1",
+        "mean epidermis weighted counts": 53.1,
+        "adjusted mean epidermis weighted counts": 0.003832551425478167,
+        "length": 13.855
+    },
+    {
+        "Gene": "SMESG000022640.1",
+        "mean epidermis weighted counts": 6.0,
+        "adjusted mean epidermis weighted counts": 0.0017094017094017094,
+        "length": 3.51
+    },
+    {
+        "Gene": "SMESG000022665.1",
+        "mean epidermis weighted counts": 14.2,
+        "adjusted mean epidermis weighted counts": 0.0015101563330851854,
+        "length": 9.403
+    },
+    {
+        "Gene": "SMESG000022691.1",
+        "mean epidermis weighted counts": 10.9,
+        "adjusted mean epidermis weighted counts": 0.0034647171010807375,
+        "length": 3.146
+    },
+    {
+        "Gene": "SMESG000022696.1",
+        "mean epidermis weighted counts": 5.3,
+        "adjusted mean epidermis weighted counts": 0.0003318930427703676,
+        "length": 15.969
+    },
+    {
+        "Gene": "SMESG000025926.1",
+        "mean epidermis weighted counts": 6.0,
+        "adjusted mean epidermis weighted counts": 0.0024813895781637717,
+        "length": 2.418
+    },
+    {
+        "Gene": "SMESG000029692.1",
+        "mean epidermis weighted counts": 462.4,
+        "adjusted mean epidermis weighted counts": 0.011273924174082652,
+        "length": 41.015
+    },
+    {
+        "Gene": "SMESG000029699.1",
+        "mean epidermis weighted counts": 5.2,
+        "adjusted mean epidermis weighted counts": 0.00633373934226553,
+        "length": 0.821
+    },
+    {
+        "Gene": "SMESG000029703.1",
+        "mean epidermis weighted counts": 3.8,
+        "adjusted mean epidermis weighted counts": 0.0034545454545454545,
+        "length": 1.1
+    },
+    {
+        "Gene": "SMESG000029738.1",
+        "mean epidermis weighted counts": 72.0,
+        "adjusted mean epidermis weighted counts": 0.009655357382325333,
+        "length": 7.457
+    },
+    {
+        "Gene": "SMESG000032715.1",
+        "mean epidermis weighted counts": 72.4,
+        "adjusted mean epidermis weighted counts": 0.0052597166727206685,
+        "length": 13.765
+    },
+    {
+        "Gene": "SMESG000032755.1",
+        "mean epidermis weighted counts": 17.0,
+        "adjusted mean epidermis weighted counts": 0.002194964493221433,
+        "length": 7.745
+    },
+    {
+        "Gene": "SMESG000040257.1",
+        "mean epidermis weighted counts": 52.0,
+        "adjusted mean epidermis weighted counts": 0.003920090463626084,
+        "length": 13.265
+    },
+    {
+        "Gene": "SMESG000040301.1",
+        "mean epidermis weighted counts": 49.9,
+        "adjusted mean epidermis weighted counts": 0.003818487909397,
+        "length": 13.068
+    },
+    {
+        "Gene": "SMESG000044161.1",
+        "mean epidermis weighted counts": 10.3,
+        "adjusted mean epidermis weighted counts": 0.0068393094289508636,
+        "length": 1.506
+    },
+    {
+        "Gene": "SMESG000049503.1",
+        "mean epidermis weighted counts": 7.7,
+        "adjusted mean epidermis weighted counts": 0.001996887966804979,
+        "length": 3.856
+    },
+    {
+        "Gene": "SMESG000049567.1",
+        "mean epidermis weighted counts": 15.4,
+        "adjusted mean epidermis weighted counts": 0.0017407030631852605,
+        "length": 8.847
+    },
+    {
+        "Gene": "SMESG000049614.1",
+        "mean epidermis weighted counts": 7.2,
+        "adjusted mean epidermis weighted counts": 0.0011024345429490124,
+        "length": 6.531
+    },
+    {
+        "Gene": "SMESG000049621.1",
+        "mean epidermis weighted counts": 32.6,
+        "adjusted mean epidermis weighted counts": 0.0027587374122027587,
+        "length": 11.817
+    },
+    {
+        "Gene": "SMESG000049647.1",
+        "mean epidermis weighted counts": 2.9,
+        "adjusted mean epidermis weighted counts": 0.002905811623246493,
+        "length": 0.998
+    },
+    {
+        "Gene": "SMESG000049663.1",
+        "mean epidermis weighted counts": 27.7,
+        "adjusted mean epidermis weighted counts": 0.0016653640353514099,
+        "length": 16.633
+    },
+    {
+        "Gene": "SMESG000049676.1",
+        "mean epidermis weighted counts": 11.9,
+        "adjusted mean epidermis weighted counts": 0.0016843595187544232,
+        "length": 7.065
+    },
+    {
+        "Gene": "SMESG000049683.1",
+        "mean epidermis weighted counts": 15.9,
+        "adjusted mean epidermis weighted counts": 0.001016884113584037,
+        "length": 15.636
+    },
+    {
+        "Gene": "SMESG000049688.1",
+        "mean epidermis weighted counts": 5.0,
+        "adjusted mean epidermis weighted counts": 0.0014943215780035865,
+        "length": 3.346
+    },
+    {
+        "Gene": "SMESG000049695.1",
+        "mean epidermis weighted counts": 2.6,
+        "adjusted mean epidermis weighted counts": 0.0030057803468208095,
+        "length": 0.865
+    },
+    {
+        "Gene": "SMESG000049739.1",
+        "mean epidermis weighted counts": 33.6,
+        "adjusted mean epidermis weighted counts": 0.005155746509129968,
+        "length": 6.517
+    },
+    {
+        "Gene": "SMESG000049740.1",
+        "mean epidermis weighted counts": 19.5,
+        "adjusted mean epidermis weighted counts": 0.0026508972267536707,
+        "length": 7.356
+    },
+    {
+        "Gene": "SMESG000049745.1",
+        "mean epidermis weighted counts": 20.0,
+        "adjusted mean epidermis weighted counts": 0.002674154298703035,
+        "length": 7.479
+    },
+    {
+        "Gene": "SMESG000049767.1",
+        "mean epidermis weighted counts": 90.3,
+        "adjusted mean epidermis weighted counts": 0.0029305812481744717,
+        "length": 30.813
+    },
+    {
+        "Gene": "SMESG000049772.1",
+        "mean epidermis weighted counts": 34.1,
+        "adjusted mean epidermis weighted counts": 0.0026905475777181634,
+        "length": 12.674
+    },
+    {
+        "Gene": "SMESG000049805.1",
+        "mean epidermis weighted counts": 4.5,
+        "adjusted mean epidermis weighted counts": 0.0013380909901873326,
+        "length": 3.363
+    },
+    {
+        "Gene": "SMESG000049806.1",
+        "mean epidermis weighted counts": 4.4,
+        "adjusted mean epidermis weighted counts": 0.0013893274392169246,
+        "length": 3.167
+    },
+    {
+        "Gene": "SMESG000049812.1",
+        "mean epidermis weighted counts": 6.2,
+        "adjusted mean epidermis weighted counts": 0.001514041514041514,
+        "length": 4.095
+    },
+    {
+        "Gene": "SMESG000049832.1",
+        "mean epidermis weighted counts": 4.9,
+        "adjusted mean epidermis weighted counts": 0.001130334486735871,
+        "length": 4.335
+    },
+    {
+        "Gene": "SMESG000049844.1",
+        "mean epidermis weighted counts": 5.6,
+        "adjusted mean epidermis weighted counts": 0.0016105838366407821,
+        "length": 3.477
+    },
+    {
+        "Gene": "SMESG000049847.1",
+        "mean epidermis weighted counts": 5.5,
+        "adjusted mean epidermis weighted counts": 0.001354346220142822,
+        "length": 4.061
+    },
+    {
+        "Gene": "SMESG000049895.1",
+        "mean epidermis weighted counts": 26.0,
+        "adjusted mean epidermis weighted counts": 0.0025855210819411296,
+        "length": 10.056
+    },
+    {
+        "Gene": "SMESG000052641.1",
+        "mean epidermis weighted counts": 2804.7,
+        "adjusted mean epidermis weighted counts": 0.12906447011182182,
+        "length": 21.731
+    },
+    {
+        "Gene": "SMESG000065567.1",
+        "mean epidermis weighted counts": 4.5,
+        "adjusted mean epidermis weighted counts": 0.0038330494037478705,
+        "length": 1.174
+    },
+    {
+        "Gene": "SMESG000065577.1",
+        "mean epidermis weighted counts": 50.8,
+        "adjusted mean epidermis weighted counts": 0.003080281348532622,
+        "length": 16.492
+    },
+    {
+        "Gene": "SMESG000065602.1",
+        "mean epidermis weighted counts": 4.1,
+        "adjusted mean epidermis weighted counts": 0.004910179640718562,
+        "length": 0.835
+    },
+    {
+        "Gene": "SMESG000065606.1",
+        "mean epidermis weighted counts": 79.6,
+        "adjusted mean epidermis weighted counts": 0.007574459986678085,
+        "length": 10.509
+    },
+    {
+        "Gene": "SMESG000065902.1",
+        "mean epidermis weighted counts": 4.2,
+        "adjusted mean epidermis weighted counts": 0.002687140115163148,
+        "length": 1.563
+    },
+    {
+        "Gene": "SMESG000067250.1",
+        "mean epidermis weighted counts": 6.4,
+        "adjusted mean epidermis weighted counts": 0.00321285140562249,
+        "length": 1.992
+    },
+    {
+        "Gene": "SMESG000070143.1",
+        "mean epidermis weighted counts": 7.5,
+        "adjusted mean epidermis weighted counts": 0.004728877679697352,
+        "length": 1.586
+    },
+    {
+        "Gene": "SMESG000070235.1",
+        "mean epidermis weighted counts": 16.5,
+        "adjusted mean epidermis weighted counts": 0.01020408163265306,
+        "length": 1.617
+    },
+    {
+        "Gene": "SMESG000070286.1",
+        "mean epidermis weighted counts": 2.4,
+        "adjusted mean epidermis weighted counts": 0.0014814814814814814,
+        "length": 1.62
+    },
+    {
+        "Gene": "SMESG000072592.1",
+        "mean epidermis weighted counts": 6.5,
+        "adjusted mean epidermis weighted counts": 0.0012243360331512525,
+        "length": 5.309
+    },
+    {
+        "Gene": "SMESG000072955.1",
+        "mean epidermis weighted counts": 5.9,
+        "adjusted mean epidermis weighted counts": 0.0015384615384615385,
+        "length": 3.835
+    },
+    {
+        "Gene": "SMESG000079607.1",
+        "mean epidermis weighted counts": 15.6,
+        "adjusted mean epidermis weighted counts": 0.002312824314306894,
+        "length": 6.745
+    }
+]

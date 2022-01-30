@@ -1,0 +1,40 @@
+## How to intersect with SMESG annotation AND RNASeq merged data 
+# Information: RNASeq merged data: merged all reads of the RNASeq bed files from ALL replicates of polyIC, Ecoli and WT (except r4 of WT) 
+
+mkdir ./clusterXhconfXRNASeq_sense/
+mkdir ./clusterXhconfXRNASeq_antisense/
+
+
+INPUT_GTF=<<YourInputFile>>
+bedtools intersect -wa -s -bed -a $INPUT_GTF -b ./SMEGS_RNASEQ/smes_v2_hconf_genes_SMESG_geneonly.bed | bedtools intersect -wa -s -bed -a stdin -b ./SMEGS_RNASEQ/merged_RNASeqData.bed | bedtools merge -s -c 1,2,3,4,5,6,7,8,9 -o distinct -i stdin | awk -F '\t' '{print $4"\t"$5"\t"$6"\t"$7"\t"$8"\t"$9"\t"$10"\t"$11"\t"$12}' > ./clusterXhconfXRNASeq/${INPUT_GTF%gtf}clusterXhconfXRNASeq.gtf 
+
+-------
+OR LOOP
+-------
+for FEATURECOUNT in 10 50 100 300; do 
+for INPUT_GTF in pdens0.3_swsize3000_clsize3*.gtf; do
+bedtools intersect -wa -S -bed -a $INPUT_GTF -f 0.3 -b ./SMEGS_RNASEQ/merged_RNASeqData_${FEATURECOUNT}features.bed | bedtools intersect -wo -s -bed -a stdin -b ./SMEGS_RNASEQ/smes_v2_hconf_genes_SMESG_geneonly.bed | bedtools merge -s -c 1,2,3,4,5,6,7,8,9,13 -o distinct -i stdin | awk -F '\t' '{print $4"\t"$5"\t"$6"\t"$7"\t"$8"\t"$9"\t"$10"\t"$11"\t"$12"; SMESGS \""$13"\""}'> ./clusterXhconfXRNASeq_sense/${INPUT_GTF%gtf}clusterXhconfXRNASeq_sense_${FEATURECOUNT}.gtf 
+bedtools intersect -wa -s -bed -a $INPUT_GTF -f 0.3 -b ./SMEGS_RNASEQ/merged_RNASeqData_${FEATURECOUNT}features.bed | bedtools intersect -wo -S -bed -a stdin -b ./SMEGS_RNASEQ/smes_v2_hconf_genes_SMESG_geneonly.bed | bedtools merge -s -c 1,2,3,4,5,6,7,8,9,13 -o distinct -i stdin | awk -F '\t' '{print $4"\t"$5"\t"$6"\t"$7"\t"$8"\t"$9"\t"$10"\t"$11"\t"$12"; SMESGS \""$13"\""}'> ./clusterXhconfXRNASeq_antisense/${INPUT_GTF%gtf}clusterXhconfXRNASeq_antisense_${FEATURECOUNT}.gtf
+done 
+done
+
+## Afterwards, we need to MERGE our input
+
+
+#SOMEHOW MAKE SURE THAT THE NEW CLUSTERS ARE ACTUALLY DEFINITIVE!!! LET'S ALSO INTERSECT WITH H3K4me3 DATA (orientation independent, obviously)...
+
+#Let's only look for clusters intersecting with RNASeq, too... Increasing the fraction..
+
+for FEATURECOUNT in 10 50 100 300; do 
+for INPUT_GTF in pdens0.3_swsize3000_clsize3*.gtf; do
+bedtools intersect -wa -S -bed -a $INPUT_GTF -f 0.3 -b ./SMEGS_RNASEQ/merged_RNASeqData_${FEATURECOUNT}features.bed | bedtools merge -s -c 1,2,3,4,5,6,7,8,9 -o distinct -i stdin | awk -F '\t' '{print $4"\t"$5"\t"$6"\t"$7"\t"$8"\t"$9"\t"$10"\t"$11"\t"$12"; SMESGS \""$13"\""}'> ./clusterXRNASeq_sense/${INPUT_GTF%gtf}clusterXRNASeq_sense_${FEATURECOUNT}.gtf 
+bedtools intersect -wa -s -bed -a $INPUT_GTF -f 0.3 -b ./SMEGS_RNASEQ/merged_RNASeqData_${FEATURECOUNT}features.bed | bedtools merge -s -c 1,2,3,4,5,6,7,8,9 -o distinct -i stdin | awk -F '\t' '{print $4"\t"$5"\t"$6"\t"$7"\t"$8"\t"$9"\t"$10"\t"$11"\t"$12"; SMESGS \""$13"\""}'> ./clusterXRNASeq_antisense/${INPUT_GTF%gtf}clusterXRNASeq_antisense_${FEATURECOUNT}.gtf
+done
+done
+
+
+#Let's also just intersect with SMESTs! :) 
+for INPUT_GTF in pdens0.3_swsize3000_clsize3*.gtf; do
+bedtools intersect -wo -s -bed -a $INPUT_GTF -b ./SMEGS_RNASEQ/smes_v2_hconf_genes_SMESG_geneonly.bed | bedtools merge -s -c 1,2,3,4,5,6,7,8,9,13 -o distinct -i stdin | awk -F '\t' '{print $4"\t"$5"\t"$6"\t"$7"\t"$8"\t"$9"\t"$10"\t"$11"\t"$12"; SMESGS \""$13"\""}'> ./clusterXhconf_sense/${INPUT_GTF%gtf}clusterXhconf_sense.gtf 
+bedtools intersect -wo -S -bed -a $INPUT_GTF -b ./SMEGS_RNASEQ/smes_v2_hconf_genes_SMESG_geneonly.bed | bedtools merge -s -c 1,2,3,4,5,6,7,8,9,13 -o distinct -i stdin | awk -F '\t' '{print $4"\t"$5"\t"$6"\t"$7"\t"$8"\t"$9"\t"$10"\t"$11"\t"$12"; SMESGS \""$13"\""}'> ./clusterXhconf_antisense/${INPUT_GTF%gtf}clusterXhconf_antisense.gtf 
+done 
